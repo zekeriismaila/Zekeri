@@ -1,0 +1,240 @@
+body {
+  padding-top: 50px;
+  margin: 0;
+  font-family: Roboto, Arial;
+  color: white;
+}
+
+.top_bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  max-width: 1500px;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #2bffed;
+  border-bottom: 3px solid red;
+  z-index: 100;
+}
+
+.page_name {
+  display: flex;
+  align-items: center;
+  font-size: 30pt;
+  font-weight: bold;
+  flex-shrink: 0;
+  color: red;
+  margin-left: 10px;
+  font-family:
+    Seymour One,
+    Sans-Serif;
+  flex: 1;
+}
+
+.page_name span {
+  color: blue;
+  font-size: 20pt;
+  font-family:
+    Seymour One,
+    Arial;
+  flex-shrink: 0;
+}
+
+.nav_bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  background-color: #602903;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 20px;
+  flex-shrink: 0;
+}
+
+.menu_bar {
+  color: red;
+  font-weight: bold;
+  height: 70px;
+}
+
+.welcome_msg {
+  padding-left: 8px;
+  font-size: 30pt;
+  font-family: Permanent Marker;
+  color: red;
+}
+.bg {
+  display: flex;
+}
+.bg img {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: -2;
+  min-height: 100px;
+  max-height: 800px;
+  max-width: 1500px;
+  flex: 1;
+}
+.description {
+  padding-left: 5px;
+  font-family: Roboto;
+  display: block;
+  width: 202px;
+  font-size: 9pt;
+  color: white;
+  box-shadow: 2px 2px;
+  text-transform: capitalize;
+}
+.control_panel {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.control_panel button {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  justify-content: space-around;
+  background-color: white;
+  padding: 15px 17px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 700;
+  font-size: 15px;
+}
+.control_panel button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+.control_panel a {
+  text-decoration: none;
+}
+.contactUs_bottun {
+  margin-right: 10px;
+  margin-left: 5px;
+}
+.about_bottun {
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.content {
+  max-width: 1500px;
+  margin-top: -50px;
+  margin-bottom: 0;
+  margin-right: 0;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 50px;
+  padding-right: 5px;
+  padding-left: 5px;
+  background-color: #005c54;
+}
+.ceo_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+  height: 160px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 800px;
+  border-radius: 30px;
+}
+.ceo {
+  flex-direction: column;
+  display: flex;
+  padding: 5px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.ceo_text {
+  position: absolute;
+  bottom: -3px;
+  z-index: 50;
+  color: #2bffed;
+  font-weight: bold;
+  font-size: 8pt;
+  background-color: red;
+  padding: 1px 6px;
+  border-radius: 10px;
+}
+.ceo_name {
+  color: red;
+  font-family: Permanent marker;
+  font-size: 8pt;
+  z-index: 0;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-top: -30px;
+  font-weight: bold;
+  background-color: #602903;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 30px;
+}
+h3 {
+  font-family: Permanent marker;
+  text-transform: uppercase;
+  color: red;
+  font-size: 17pt;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px 5px;
+  box-shadow: 3px 3px;
+  width: 310px;
+}
+p {
+  padding-left: 5px;
+  font-size: 12pt;
+  width: 300px;
+}
+.contact_button {
+  display: flex;
+  flex-direction: row;
+  border: none;
+  justify-content: space-around;
+  background-color: white;
+  padding: 15px 17px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: White;
+  font-weight: 700;
+  font-size: 15px;
+}
+.contact_button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  color: red;
+  background-color: aqua;
+}
+.contact_button a {
+  margin-bottom: 3px;
+  text-decoration: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 13pt;
+  color: red;
+  width: 100%;
+  max-width: 1500px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #2bffed;
+  border-top: 3px solid red;
+}
